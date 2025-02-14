@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #1e1e1e, #121212);
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #181818;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header .logo img {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #64ffda;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.cta-button {
+  background-color: #64ffda;
+  color: #121212;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #50c9a0;
+}
+
+.projects {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.project-card a {
+  color: #64ffda;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+  color: #50c9a0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #181818;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+#logo-container {
+    background-color: #1e1e1e; /* Match the website background */
+    padding: 10px;
+    display: inline-block; /* Ensures the image is inline with any text */
+    border-radius: 10px; /* Optional: rounded edges around the logo */
+}
+
+#logo {
+    max-width: 300px;
+    height: auto;
+    display: block; /* Ensures no extra space below the image */
+}
+
+#logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* This centers the logo */
+    padding-top: 20px; /* Adds space above the logo */
+}
+
+
+
+
+.projects {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #121212;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.project-card a {
+  color: #64ffda;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+  color: #50c9a0;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.cta-button {
+  background-color: #64ffda;
+  color: #121212;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.cta-button:hover {
+  background-color: #50c9a0;
+  transform: translateY(-5px);
+}
+
+.btn {
+  background-color: #64ffda;
+  color: #121212;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #50c9a0;
+}
+
+
+
+
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1rem;
+  color: white;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #2a2a2a;
+  color: white;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  background-color: #64ffda;
+  color: #121212;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #50c9a0;
+}
